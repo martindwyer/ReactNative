@@ -2,6 +2,10 @@
 
 Notes and code developed in process of taking The Complete React Native + Hooks Course.
 
+IMPORTANT!!!
+
+When installing Node modules for lessons 1 through 7, make sure to use node install --legacy-peer-deps
+
 Course Description from instructor Stephen Grider:
 
 "This course includes content on both v0.62.2 and the legacy v0.30.x, which is widely used in industry.
