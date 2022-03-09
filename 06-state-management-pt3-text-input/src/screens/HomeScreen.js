@@ -68,7 +68,7 @@ const HomeScreen = ({ navigation }) => {
 
 const styles = StyleSheet.create({
   button: {
-    width: 400,
+    width: "70%",
     alignSelf: "center",
     alignItems: "center",
     justifyContent: "center",
