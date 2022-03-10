@@ -62,6 +62,12 @@ const HomeScreen = ({ navigation }) => {
       >
         <Text style={styles.text}>Text Demo</Text>
       </Pressable>
+      <Pressable
+        style={styles.button}
+        onPress={() => navigation.navigate("Box")}
+      >
+        <Text style={styles.text}>Box Object Demo</Text>
+      </Pressable>
     </View>
   );
 };
@@ -74,7 +80,7 @@ const styles = StyleSheet.create({
     justifyContent: "center",
     paddingVertical: 12,
     paddingHorizontal: 32,
-    marginVertical: 15,
+    marginVertical: 25,
     borderRadius: 4,
     elevation: 3,
     backgroundColor: "green",
