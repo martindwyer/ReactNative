@@ -60,7 +60,7 @@ const buttonWidth = "75%";
 
 const styles = StyleSheet.create({
   container: {
-    margin: 20,
+    padding: 20,
     alignItems: "center",
     justifyContent: "center",
     position: "absolute",
@@ -68,7 +68,6 @@ const styles = StyleSheet.create({
     right: 0,
     bottom: 0,
     left: 0,
-    marginBottom: 75,
   },
   heading: {
     marginVertical: 20,
